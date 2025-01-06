@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
     <style>
         .star {
@@ -31,6 +30,7 @@
             }
         }
     </style>
+
 
 </head>
 
@@ -197,11 +197,14 @@
         </div>
     </div>
 
+
+
     <button onclick="exportPDF()" class="no-print">Download PDF</button>
     <button onclick="captureDiv()">Capture as Image</button>
     <a id="downloadLink" style="display:none;">Download Image</a>
-
     <script>
+
+
         function exportPDF() {
             html2canvas(document.querySelector('.container')).then(canvas => {
                 const imgData = canvas.toDataURL('image/png');
@@ -211,42 +214,30 @@
             });
         }
 
-        function captureDiv1() {
-            const element = document.querySelector('.container'); // Use querySelector for class-based selection
+        function captureDiv() {
+            const element = document.getElementById('.container');
 
+            // تحويل محتويات العنصر إلى صورة باستخدام html2canvas
             html2canvas(element).then(function (canvas) {
+                // تحويل اللوحة إلى URL صورة
                 const image = canvas.toDataURL('image/png');
+
+                // إعداد رابط التنزيل
                 const downloadLink = document.getElementById('downloadLink');
                 downloadLink.href = image;
                 downloadLink.download = 'div-image.png';
                 downloadLink.textContent = 'Download Image';
-                downloadLink.style.display = 'block'; // Show the download link
+                downloadLink.style.display = 'block'; // عرض الرابط بعد التحديث
             }).catch(function (error) {
                 console.error('Error capturing the div:', error);
             });
         }
-        function captureDiv() {
-            const element = document.querySelector('.container'); // استخدام querySelector لاختيار العنصر بناءً على الكلاس
-
-            html2canvas(element).then(function (canvas) {
-                const image = canvas.toDataURL('image/png'); // تحويل الصورة إلى base64
-                console.log(image); // تأكد من أن الصورة تم تحويلها بشكل صحيح
-
-                const downloadLink = document.getElementById('downloadLink');
-                downloadLink.href = image;
-                downloadLink.download = 'div-image.png';
-                downloadLink.textContent = 'تحميل الصورة';
-                downloadLink.style.display = 'inline';  // تأكد من ظهور الرابط بعد تحميل الصورة
-            }).catch(function (error) {
-                console.error('حدث خطأ أثناء التقاط الصورة:', error);
-            });
-        }
-
-
     </script>
 
     <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>

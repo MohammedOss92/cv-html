@@ -175,6 +175,12 @@ p {
     color: #333;
 }
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+}
+
 .about .box {
     display: flex;
     flex-direction: row;
