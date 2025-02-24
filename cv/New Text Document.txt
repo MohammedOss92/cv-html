@@ -1,105 +1,66 @@
-{%comment%}
+É ÇáÃÚãÇá:
+ãÏíÑ ÇáãÔÑæÚ (Project Manager):
 
-</html>
+ÅÏÇÑÉ æÊäÙíã İÑŞ ÇáÚãá.
+ÇáÊÎØíØ æÊäİíĞ ÇáãÔÇÑíÚ æİŞğÇ ááãæÇÚíÏ ÇáãÍÏÏÉ.
+ÇáÊäÓíŞ Èíä ÇáÃŞÓÇã ÇáãÎÊáİÉ.
+ÃÎÕÇÆí ÇáÊÓæíŞ (Marketing Specialist):
 
-<head>
-	<style>
-		@page {
-			size: a4 portrait;
+æÖÚ ÇÓÊÑÇÊíÌíÇÊ ÇáÊÓæíŞ ááãäÊÌÇÊ Ãæ ÇáÎÏãÇÊ.
+ÊÍáíá ÃÓæÇŞ ÇáãÓÊåáßíä æÇÍÊíÇÌÇÊåã.
+ÊØæíÑ ÍãáÇÊ ÅÚáÇäíÉ æÊÍáíá äÊÇÆÌåÇ.
+ãÏíÑ ÇáãæÇÑÏ ÇáÈÔÑíÉ (HR Manager):
 
-			@frame header_frame {
-				/* Static Frame */
-				-pdf-frame-content: header_content;
-				left: 50pt;
-				width: 512pt;
-				top: 50pt;
-				height: 40pt;
-			}
+ÅÏÇÑÉ ÓíÇÓÇÊ ÇáÊæÙíİ æÇáÊÏÑíÈ.
+ÊØæíÑ ÈÑÇãÌ ÇáãæÙİíä æÊÍİíÒåã.
+ÇáÊÚÇãá ãÚ ÇáÔßÇæì æÇáãÔÇßá ÇáãÊÚáŞÉ ÈÇáãæÙİíä.
+ãÍáá ÇáÃÚãÇá (Business Analyst):
 
-			@frame content_frame {
-				/* Content Frame */
-				left: 50pt;
-				width: 512pt;
-				top: 90pt;
-				height: 632pt;
-			}
+ÊÍáíá ÇáÈíÇäÇÊ ÇáÊÌÇÑíÉ áÊÍÏíÏ ÇáİÑÕ æÇáäŞÇØ ÇáÖÚíİÉ.
+ÊŞÏíã ÇáÊæÕíÇÊ áÊÍÓíä ÇáÚãáíÇÊ ÇáÊÌÇÑíÉ.
+ãÊÇÈÚÉ ÇáÃÏÇÁ ÇáÊÌÇÑí æÊÍŞíŞ ÇáÃåÏÇİ.
+ãÏíÑ ÇáÚãáíÇÊ (Operations Manager):
 
-			@frame footer_frame {
-				/* Another static Frame */
-				-pdf-frame-content: footer_content;
-				left: 50pt;
-				width: 512pt;
-				top: 772pt;
-				height: 20pt;
-			}
-		}
-	</style>
-</head>
+ÊÍÓíä ÇáÚãáíÇÊ ÇáÏÇÎáíÉ æÊÍŞíŞ ÇáßİÇÁÉ.
+ÅÏÇÑÉ ÓáÓáÉ ÇáÅãÏÇÏ æÇáãæÇÑÏ.
+ÊÍáíá ÇáÚãáíÇÊ æÊŞÏíã ÇáÍáæá áÊÍÓíä ÇáÅäÊÇÌíÉ.
+ÇáãÏíÑ ÇáãÇáí (Finance Manager):
 
-<body>
-	<!-- Content for Static Frame 'header_frame' -->
-	<div id="header_content">
-		<h3>Dennnis Ivanov Company</h3>
-	</div>
+ÅÚÏÇÏ ÇáãíÒÇäíÇÊ æÇáÊŞÇÑíÑ ÇáãÇáíÉ.
+ÊÍáíá ÇáÈíÇäÇÊ ÇáãÇáíÉ æÊŞÏíã ÇáÊæÌíåÇÊ ÇáÇÓÊÑÇÊíÌíÉ.
+ãÊÇÈÚÉ ÇáäİŞÇÊ æÇáÅíÑÇÏÇÊ æÅÚÏÇÏ ÇáÊæŞÚÇÊ ÇáãÇáíÉ.
+ãÏíÑ ÇáãÈíÚÇÊ (Sales Manager):
 
-	<!-- Content for Static Frame 'footer_frame' -->
-	<div id="footer_content">(c) - page <pdf:pagenumber>
-			of <pdf:pagecount>
-	</div>
+ÊÍÏíÏ ÃåÏÇİ ÇáãÈíÚÇÊ æÊäÙíã ÇáİÑŞ áÊÍŞíŞåÇ.
+ÈäÇÁ ÚáÇŞÇÊ ãÚ ÇáÚãáÇÁ æÇáãæÑÏíä.
+ÊÍÓíä ÇÓÊÑÇÊíÌíÇÊ ÇáãÈíÚÇÊ æÇáÒíÇÏÉ İí ÇáÅíÑÇÏÇÊ.
+ÇÓÊÔÇÑí ÅÏÇÑÉ ÇáÃÚãÇá (Business Consultant):
 
-	<!-- HTML Content -->
-	<table>
-		<tr>
-			<td>{{address}}</td>
-			<td>{{phone}}</td>
-		</tr>
-		<tr>
-			<td>{{city}} {{state}},</td>
-			<td>{{email}}</td>
-		</tr>
-		<tr>
-			<td>{{zipcode}}</td>
-			<td>{{website}}</td>
-		</tr>
-	</table>
+ÊŞÏíã ÇÓÊÔÇÑÇÊ ÇÓÊÑÇÊíÌíÉ ááÔÑßÇÊ áÊÍÓíä ÇáÃÏÇÁ.
+ÊØæíÑ ÎØØ ÇáÚãá ÇáÊí ÊÊäÇÓÈ ãÚ ÃåÏÇİ ÇáÔÑßÉ.
+ÇáÚãá ãÚ ÇáÅÏÇÑÉ ÇáÚáíÇ áÊÍÏíÏ ÇáİÑÕ ÇáÊÌÇÑíÉ ÇáÌÏíÏÉ.
+ãÓÊÔÇÑ ÅÏÇÑí (Management Consultant):
 
-	<hr>
+ÊŞÏíã ÇáãÔæÑÉ ááÅÏÇÑÉ ÈÔÃä ÊÍÓíä ÇáÚãáíÇÊ ÇáÏÇÎáíÉ.
+ÊŞííã ÇáÚãáíÇÊ ÇáÊäÙíãíÉ æÊŞÏíã Íáæá ÇÓÊÑÇÊíÌíÉ.
+ÊŞÏíã ÊÍáíá ÏæÑí áÃÏÇÁ ÇáãäÙãÉ.
+ãÏíÑ ÇáÊØæíÑ ÇáÊÌÇÑí (Business Development Manager):
 
-	<table>
-		<tr>
+ÇáÈÍË Úä ÃÓæÇŞ ÌÏíÏÉ æİÑÕ ááÊæÓÚ.
+ÈäÇÁ ÚáÇŞÇÊ ãÚ ÇáÔÑßÇÊ æÇáÚãáÇÁ ÇáÌÏÏ.
+ÊØæíÑ ÇÓÊÑÇÊíÌíÇÊ ÊÌÇÑíÉ áÒíÇÏÉ ÇáÅíÑÇÏÇÊ.
 
-			<th>Product</th>
-			<th>Price</th>
-			<th>Quantity</th>
-			<th>Total</th>
-		</tr>
-		<tr>
-
-			<td>Hosting Plan</td>
-			<td>$7.99</td>
-			<td>2</td>
-			<td>$15.98</td>
-		</tr>
-		<tr>
-
-			<td>consultation </td>
-			<td>$225</td>
-			<td>1</td>
-			<td>$225</td>
-		</tr>
-		<tr>
-
-			<td>Service Hours</td>
-			<td>$189</td>
-			<td>45.7</td>
-			<td>$8637.30</td>
-		</tr>
-	</table>
-
-	<hr>
-
-	<p><strong>Total: $8878.28</strong></p>
-</body>
-
-</html>
-{%endcomment%}
+<div class="section">
+    <h2 class="section-title">ÇáãÔÇÑíÚ</h2>
+    <p><strong>ÊØÈíŞ ÊÊÈÚ ÇáÃãæÇá ÇáÔÎÕíÉ (ÊØÈíŞ ÃäÏÑæíÏ)</strong></p>
+    <ul>
+        <li>Êã ÊØæíÑ ÊØÈíŞ ÃäÏÑæíÏ ÈÓíØ áÊÊÈÚ ÇáäİŞÇÊ ÇáÔÎÕíÉ ÈÇÓÊÎÏÇã áÛÉ ÌÇİÇ.</li>
+        <li>Êã ÊäİíĞ ãíÒÇÊ ãËá ÅÖÇİÉ æÊÚÏíá æÍĞİ ÓÌáÇÊ ÇáäİŞÇÊ.</li>
+    </ul>
+    
+    <p><strong>ÅÏÇÑÉ ÇáãÎÒæä (ãÔÑæÚ ÅÏÇÑÉ ÇáÃÚãÇá)</strong></p>
+    <ul>
+        <li>Êã ÅäÔÇÁ ÎØÉ ÅÏÇÑÉ ãÎÒæä æåãíÉ ßÌÒÁ ãä ãŞÑÑ ÅÏÇÑÉ ÇáÃÚãÇá.</li>
+        <li>Êã ÊØÈíŞ ÇáãÈÇÏÆ ÇáÃÓÇÓíÉ áÅÏÇÑÉ ÇáãÎÒæä¡ ÊÍáíá ÇáÊßÇáíİ¡ æÇÓÊÑÇÊíÌíÉ ÇáÊÓÚíÑ.</li>
+    </ul>
+</div>
